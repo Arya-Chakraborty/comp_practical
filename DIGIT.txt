@@ -1,0 +1,4 @@
+1 is a digit
+this is not a digit
+123456 is an integer
+12.0 is a decimal number
