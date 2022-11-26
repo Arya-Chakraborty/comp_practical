@@ -1,2 +1,2 @@
-# comp_practical
-Class 12 Computer Practical Code
+# Computer Practical Code
+Code Written by Arya Chakraborty
