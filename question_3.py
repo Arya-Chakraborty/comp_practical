@@ -8,4 +8,4 @@ with open("DIGIT.txt", "r") as file:
         for char in line:
             if char.isdigit():
                 counter += 1
-print("Number of characters in file:", counter)
+print("Number of digits in file:", counter)
