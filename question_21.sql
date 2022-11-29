@@ -1,7 +1,7 @@
 -- I
 select * from stock order by stockdate;
 -- II
-select dcode, max(unitprice) from stock order by dcode;
+select dcode, max(unitprice) from stock group by dcode;
 -- III
 select * from stock order by item desc;
 -- IV
