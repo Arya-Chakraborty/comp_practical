@@ -3,7 +3,7 @@ create table club(coach_id integer primary key, coach_name varchar(20) not null,
 -- (a)
 select coach_name from club where coach_name like "A%" and coach_name like "%H";
 -- (b)
-select sports, sum(pay) from club where sports = "swimming" group by sports;
+select sports, sum(pay) from club where sports = "swimming";
 -- (c)
 select coach_name, age from club order by age desc;
 -- (d)
